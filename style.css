@@ -1,0 +1,253 @@
+
+body{
+
+    /*font-size: x-large;*/
+    color: white;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*This section handles the tagline in the home page*/
+.headline h1,h3
+{
+    padding: 0px;
+    margin: 0px;
+    /*font-size: xx-large;*/
+}
+
+.headline h1{
+
+
+    font-size: 220%
+}
+
+
+.headline {
+    position: absolute;
+    text-align: center;
+    margin-top:22%;
+    margin-left: 28%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+}
+
+
+/*This section handles the background image of the home page*/
+
+.image{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+header {
+    height: 100vh;
+}
+
+
+/*This section handles the navigation bar of the home page*/
+
+
+.nav{
+    float: right;
+    clear:right;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: auto ;
+    margin-right: auto;
+
+    padding-top: 5px;
+
+    position: fixed;
+    background-color: grey;
+}
+
+.nav a {
+    text-decoration: none;
+    /*color: white;*/
+    align-items: center;
+}
+
+
+.nav li {
+    list-style: none;
+    display:inline-block;
+    margin: auto;
+    margin-left: 60px;
+    font-weight: bolder ;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+
+}
+
+/*This section handles the animations in the nav bar of the home page*/
+
+
+
+.box  {
+    color: #fff;
+    padding : 10px;
+
+
+}
+
+.box:hover
+{
+    background: #3b5998 ;
+    color: white;
+
+}
+
+.demo {
+    position: relative;
+}
+
+.demo:before{
+
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.2s;
+
+    -webkit-transition-property: top, left, right, bottom;
+    -moz-transition-property: top, left, right, bottom;
+    -o-transition-property: top, left, right, bottom;
+    transition-property: top, left, right, bottom;
+}
+.demo:hover:before,.demo:focus:before{
+
+
+    -webkit-transition-delay: .1s;
+    -moz-transition-delay: .1s;
+    -o-transition-delay: .1s;
+    transition-delay: .1s;
+
+    border: #3b5998  solid 3px;
+    bottom: -7px;
+    left: -7px;
+    top: -7px;
+    right: -7px;
+}
+
+
+/*This section is the About heading of the 2nd page*/
+
+.boutTag
+{
+    background-color:#3b5998 ;
+    margin-top: 0px;
+    width: 150px;
+    margin-left: 8%;
+}
+.boutTag:hover
+{
+    background-color: #3395c9;
+    /*background-color: #3C74B4;*/
+    transition: all 0.4s ease-in;
+}
+.boutTag h3{
+
+    color: white;
+    padding: 20px;
+
+    text-align: center;
+}
+
+/*This section is the profile pic allocation in the about me page*/
+
+.profpic
+{
+    width: 280px;
+    padding:5px;
+
+}
+.imgholder
+{
+
+    margin-top: 20px;
+    background-color: #3b5998 ;
+    margin-left: 8%;
+    width: 282px;
+    float: left;
+}
+
+.imgholder:hover
+{
+    background-color: white;
+    transition: all 0.4s ease-in;
+}
+
+/*This section is the contents of the about me page*/
+
+
+.boutholder
+{
+
+background-color: #3b5998 ;
+    width : 810px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: medium;
+
+}
+
+.boutholder:hover
+{
+
+    background-color: #3C74B4;
+
+    transition: all 0.4s ease-in;
+
+}
+#about {
+
+    color: white;
+    font-weight: bolder;
+
+}
+
+/*.projtag{*/
+    /*margin-top: 50%;*/
+/*}*/
+
+#projects
+{
+    background-color: grey;
+    /*margin-top: 100%;*/
+    clear: both;
+    margin-top: 60%;
+}
+
+
+#bio {
+
+    background-color: grey;
+    position: relative;
+    margin-top: 10%;
+
+}
+
+.projitems{
+
+    list-style: none;
+}
+
+.projtag{
+    /*margin-top: 500px;*/
+    margin-left: 30px;
+}
